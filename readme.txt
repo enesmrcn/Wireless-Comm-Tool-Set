@@ -1,5 +1,5 @@
 
---> You can calculate the distance of wireless communication between receiver and transmitter easily using libraries.
+--> You can calculate the distance of wireless communication between receiver and transmitter
 --> Can easily estimate the minimum and recommended altitude of the antennas to avoid reflections and blockages
 
 
