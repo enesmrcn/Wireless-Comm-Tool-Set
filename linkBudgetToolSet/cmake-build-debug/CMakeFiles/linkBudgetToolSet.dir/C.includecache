@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/enesmercan/CLionProjects/linkBudgetToolSet/linkBudget.c
+linkBudget.h
+/Users/enesmercan/CLionProjects/linkBudgetToolSet/linkBudget.h
+math.h
+-
+stdio.h
+-
+
+/Users/enesmercan/CLionProjects/linkBudgetToolSet/linkBudget.h
+
