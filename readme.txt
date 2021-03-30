@@ -1,6 +1,6 @@
 
-You can calculate the distance of wireless communication between receiver and transmitter easily using libraries.
-Also you can easily estimate the minimum and recommended altitude of the antennas to avoid reflections and blockages
+--> You can calculate the distance of wireless communication between receiver and transmitter easily using libraries.
+--> Can easily estimate the minimum and recommended altitude of the antennas to avoid reflections and blockages
 
 
 /*
