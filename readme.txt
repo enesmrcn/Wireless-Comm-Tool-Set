@@ -72,3 +72,47 @@
 
 //  ***************************************************************************************************
 
+/****************************	Example Codes ******************************************************/
+
+// Fresnel Tunnel Diameter calculation
+    wave.dist_km = 1.f;
+    wave.freq_ghz = 2.4f;
+
+    fresnelCalc();    //  perform the calculation (necessarily)
+    printFresnel(); //  printf results
+
+//_________________________________________________________________________________________
+
+// link budget  calculation
+
+    link.TX.Ptx_dBm = 30.f;
+    link.TX.Gtx_dBi = 2.f;
+    link.TX.Ltx_dB = 2.f;
+    link.RX.Grx_dBi = 2.f;
+    link.RX.Lrx_dB = 2.f;
+    link.RX.sensitivity = -147.2f;
+
+    linkBudgetCalc();    //  perform the calculation (necessarily)
+    printLinkBudget();   //  to print results
+
+
+//_________________________________________________________________________________________
+
+// maximum range calculation
+    wave.freq_ghz = 0.868f;
+    link.TX.Ptx_dBm = 30.f;
+    link.TX.Gtx_dBi = 2.f;
+    link.TX.Ltx_dB = 2.f;
+    link.RX.Grx_dBi = 2.2f;
+    link.RX.Lrx_dB = 2.f;
+    link.RX.sensitivity = -147.2f;
+
+    maxRange();    //  perform the calculation (necessarily)
+
+//_________________________________________________________________________________________
+
+
+//  ***************************************************************************************************
+
+/****************************	  THE END      ******************************************************/
+
