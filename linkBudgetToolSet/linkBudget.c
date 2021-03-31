@@ -27,17 +27,22 @@ extern void fresnelCalc(void) //  takes distance in km and freq in GHz to perfor
 
 extern void linkBudgetCalc(void)
 {
-    link.TX.Ltx_dB = ABS(link.TX.Ltx_dB);
-    link.RX.Lrx_dB = ABS(link.RX.Lrx_dB);
+    link.TX.Ltx_dB      = ABS(link.TX.Ltx_dB);          //  Takes the absolute to avoid any conflict
+    link.RX.Lrx_dB      = ABS(link.RX.Lrx_dB);           //  Takes the absolute to avoid any conflict
+    link.Lm_dB          = ABS(link.Lm_dB);               //  Takes the absolute to avoid any conflict
+    link.RX.sensitivity = ABS(link.RX.sensitivity);       //  Takes the absolute to avoid any conflict
+
+    if (link.Lm_dB == 0)    //  Misc Losses by default is 10dBm
+        link.Lm_dB =  DEFAULT_MISC_LOSS;
 
     link.Lfs_dB = 20 * log10f(wave.freq_ghz);
     link.Lfs_dB += 20 * log10f(wave.dist_km);
-    link.Lfs_dB += (float) LINK_BUDGET_CONST;
+    link.Lfs_dB += LINK_BUDGET_CONST;
 
 
     link.RSSI = (link.TX.Ptx_dBm) + (link.TX.Gtx_dBi) - (link.TX.Ltx_dB);
-    link.RSSI +=  ( (link.RX.Grx_dBi) - (link.RX.Lrx_dB) - (link.Lfs_dB) );
-    link.linkMargin = link.RSSI - link.RX.sensitivity;
+    link.RSSI +=  ( (link.RX.Grx_dBi) - (link.RX.Lrx_dB) - (link.Lfs_dB) - (link.Lm_dB));
+    link.linkMargin = link.RSSI + link.RX.sensitivity;
 
 }
 
@@ -73,4 +78,37 @@ extern void printLinkBudget(void)
     putchar(10);
     puts("*****************************************");
 
+}
+
+extern void maxRange(void)
+{
+
+    float range, tempVal;
+
+    if (link.Lm_dB == 0.f)    //  Misc Losses by default is 10dBm
+        link.Lm_dB =  DEFAULT_MISC_LOSS;
+    else
+        link.RX.sensitivity = ABS(link.RX.sensitivity);   //  Takes the absolute to avoid any conflict
+
+
+    tempVal = (link.TX.Ptx_dBm) + (link.TX.Gtx_dBi) - (link.RX.Lrx_dB) - (link.TX.Ltx_dB)
+                - (link.Lm_dB) + (link.RX.Grx_dBi) + (link.RX.sensitivity)
+                    - 92.45f - (20 * log10f(wave.freq_ghz));
+
+    range = tempVal;
+    range /= 20;
+    range = powf(10.f, range);
+
+    tempVal -= MIN_RELIABLE_MARGIN;
+    tempVal /= 20;
+    tempVal = powf(10.f, tempVal);
+
+    // print the results
+    putchar(10);
+    puts("****************************************");
+    printf("theoretical max range --> %.3f km", range);
+    putchar(10);
+    printf("practical max range --> %.3f km", tempVal);     // Taken into account probability of 10dB loss margin in air (recommended)
+    putchar(10);                                            //  recommended by RF designers
+    puts("****************************************");
 }

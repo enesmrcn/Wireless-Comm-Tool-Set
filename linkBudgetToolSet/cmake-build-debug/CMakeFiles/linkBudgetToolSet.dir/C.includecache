@@ -6,13 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/enesmercan/CLionProjects/linkBudgetToolSet/linkBudget.c
+/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.c
 linkBudget.h
-/Users/enesmercan/CLionProjects/linkBudgetToolSet/linkBudget.h
+/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.h
 math.h
 -
 stdio.h
 -
 
-/Users/enesmercan/CLionProjects/linkBudgetToolSet/linkBudget.h
+/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.h
+
+/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/main.c
+stdio.h
+-
+linkBudget.h
+/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.h
 

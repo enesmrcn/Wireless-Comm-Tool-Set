@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/enesmercan/CLionProjects/linkBudgetToolSet/linkBudget.c" "/Users/enesmercan/CLionProjects/linkBudgetToolSet/cmake-build-debug/CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.o"
-  "/Users/enesmercan/CLionProjects/linkBudgetToolSet/main.c" "/Users/enesmercan/CLionProjects/linkBudgetToolSet/cmake-build-debug/CMakeFiles/linkBudgetToolSet.dir/main.c.o"
+  "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.c" "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.o"
+  "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/main.c" "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/CMakeFiles/linkBudgetToolSet.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

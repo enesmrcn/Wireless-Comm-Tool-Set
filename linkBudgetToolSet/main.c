@@ -79,24 +79,14 @@ int main() {
 
     printf("\n*********  Welcome to Fresnel Zone Calculator  *********\n");
 
-
-    float dist = 0;    // the distance between two antennas
-    float freq = 0;    //  the freq of the signal
-
-
-    printf("\nPlease, input the distance between your antennas (km) :  ");
-    scanf("%f", &dist);
-
-    printf("\nPlease input the frequency in GHz: ");
-    scanf("%f", &freq);
-
-    wave.dist_km = dist;
-    wave.freq_ghz = freq;
+    // Fresnel Tunnel Diameter calculation
+    wave.dist_km = 1.f;
+    wave.freq_ghz = 2.4f;
 
     fresnelCalc();    //  perform the calculation (necessarily)
     printFresnel(); //  printf results
 
-    // link budget
+    // link budget  calculation
     link.TX.Ptx_dBm = 30.f;
     link.TX.Gtx_dBi = 2.f;
     link.TX.Ltx_dB = 2.f;
@@ -106,6 +96,19 @@ int main() {
 
     linkBudgetCalc();    //  perform the calculation (necessarily)
     printLinkBudget();   //  to print results
+
+
+    // maximum range calculation
+    wave.freq_ghz = 0.868f;
+    link.TX.Ptx_dBm = 30.f;
+    link.TX.Gtx_dBi = 2.f;
+    link.TX.Ltx_dB = 2.f;
+    link.RX.Grx_dBi = 2.2f;
+    link.RX.Lrx_dB = 2.f;
+    link.RX.sensitivity = -147.2f;
+
+    maxRange();    //  perform the calculation (necessarily)
+
 
     return 0;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/enesmercan/CLionProjects/linkBudgetToolSet
+# Install script for directory: /Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/enesmercan/CLionProjects/linkBudgetToolSet/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
