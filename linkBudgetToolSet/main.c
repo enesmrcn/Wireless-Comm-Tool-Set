@@ -80,32 +80,32 @@ int main() {
     printf("\n*********  Welcome to Fresnel Zone Calculator  *********\n");
 
     // Fresnel Tunnel Diameter calculation
-    wave.dist_km = 1.f;
+    wave.dist_km = 1.5f;
     wave.freq_ghz = 2.4f;
 
     fresnelCalc();    //  perform the calculation (necessarily)
     printFresnel(); //  printf results
 
     // link budget  calculation
-    link.TX.Ptx_dBm = 30.f;
+    link.TX.Ptx_dBm = 20.f;
     link.TX.Gtx_dBi = 2.f;
-    link.TX.Ltx_dB = 2.f;
-    link.RX.Grx_dBi = 2.f;
+    link.TX.Ltx_dB = 1.f;
+    link.RX.Grx_dBi = 14.f;
     link.RX.Lrx_dB = 2.f;
-    link.RX.sensitivity = -147.2f;
+    link.RX.sensitivity = -98.f;
 
     linkBudgetCalc();    //  perform the calculation (necessarily)
     printLinkBudget();   //  to print results
 
 
     // maximum range calculation
-    wave.freq_ghz = 0.868f;
-    link.TX.Ptx_dBm = 30.f;
+    wave.freq_ghz = 2.4f;
+    link.TX.Ptx_dBm = 20.f;
     link.TX.Gtx_dBi = 2.f;
-    link.TX.Ltx_dB = 2.f;
-    link.RX.Grx_dBi = 2.2f;
+    link.TX.Ltx_dB = 1.f;
+    link.RX.Grx_dBi = 14.f;
     link.RX.Lrx_dB = 2.f;
-    link.RX.sensitivity = -147.2f;
+    link.RX.sensitivity = -98.f;
 
     maxRange();    //  perform the calculation (necessarily)
 

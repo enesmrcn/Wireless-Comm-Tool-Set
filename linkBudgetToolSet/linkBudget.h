@@ -25,7 +25,7 @@
 // constants to be used in calcutaions
 #define      CLEARANCE_CONSTANT     8.657f          //  the constant used in calculation
 #define      LINK_BUDGET_CONST      92.45f
-#define      DEFAULT_MISC_LOSS      10.f            //  miscellaneous losses (dB)
+#define      DEFAULT_MISC_LOSS      3.f            //  miscellaneous losses (dB)
 #define      MIN_RELIABLE_MARGIN    10.f            //  when calculation max link range we assume 10dB is min required margin
 
 

@@ -71,6 +71,7 @@ extern void printLinkBudget(void)
     printf("\n%-25s%.2lf dBi", "RX Antenna Gain", link.RX.Grx_dBi);
     printf("\n%-25s%.2lf dB",  "RX Cable Loss", link.RX.Lrx_dB);
     printf("\n%-25s%.2lf dBm", "RX Sensitivity", link.RX.sensitivity);
+    printf("\n%-25s%.2lf dBm", "Miscellaneous Losses", (float) DEFAULT_MISC_LOSS);
     printf("\n%-25s%.2lf dBm", "RSSI", link.RSSI);
     printf("\n%-25s%.2lf dB",  "Link Margin", link.linkMargin);
 
@@ -93,7 +94,7 @@ extern void maxRange(void)
 
     tempVal = (link.TX.Ptx_dBm) + (link.TX.Gtx_dBi) - (link.RX.Lrx_dB) - (link.TX.Ltx_dB)
                 - (link.Lm_dB) + (link.RX.Grx_dBi) + (link.RX.sensitivity)
-                    - 92.45f - (20 * log10f(wave.freq_ghz));
+                    - 92.45f - (20 * log10f(wave.freq_ghz)) - ABS(DEFAULT_MISC_LOSS);
 
     range = tempVal;
     range /= 20;
@@ -106,9 +107,9 @@ extern void maxRange(void)
     // print the results
     putchar(10);
     puts("****************************************");
-    printf("theoretical max range --> %.3f km", range);
+    printf("theoretical max range (line of sight)--> %.3f km", range);
     putchar(10);
-    printf("practical max range --> %.3f km", tempVal);     // Taken into account probability of 10dB loss margin in air (recommended)
+    printf("practical max range (urban places) --> %.3f km", tempVal);     // Taken into account probability of 10dB loss margin in air (recommended)
     putchar(10);                                            //  recommended by RF designers
     puts("****************************************");
 }
