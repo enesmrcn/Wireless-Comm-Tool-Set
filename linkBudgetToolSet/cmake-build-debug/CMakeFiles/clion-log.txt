@@ -1,11 +1,10 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet
--- The C compiler identification is AppleClang 12.0.0.12000032
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - works
+"C:\Users\enes\AppData\Local\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\enes\Documents\GitHub\Wireless-Comm-Tool-Set\linkBudgetToolSet
+-- The C compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/gcc.exe - skipped
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug
+-- Build files have been written to: C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug

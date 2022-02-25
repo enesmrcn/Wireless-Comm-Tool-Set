@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.o"
-  "CMakeFiles/linkBudgetToolSet.dir/main.c.o"
-  "linkBudgetToolSet"
+  "CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.obj"
+  "CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.obj.d"
+  "CMakeFiles/linkBudgetToolSet.dir/main.c.obj"
+  "CMakeFiles/linkBudgetToolSet.dir/main.c.obj.d"
+  "liblinkBudgetToolSet.dll.a"
+  "linkBudgetToolSet.exe"
+  "linkBudgetToolSet.exe.manifest"
   "linkBudgetToolSet.pdb"
 )
 

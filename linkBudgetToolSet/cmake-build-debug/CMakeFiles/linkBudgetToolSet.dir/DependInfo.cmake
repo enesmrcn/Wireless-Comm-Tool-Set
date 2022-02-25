@@ -1,16 +1,15 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
   )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.c" "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.o"
-  "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/main.c" "/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/CMakeFiles/linkBudgetToolSet.dir/main.c.o"
-  )
-set(CMAKE_C_COMPILER_ID "AppleClang")
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.c" "CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.obj" "gcc" "CMakeFiles/linkBudgetToolSet.dir/linkBudget.c.obj.d"
+  "C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/main.c" "CMakeFiles/linkBudgetToolSet.dir/main.c.obj" "gcc" "CMakeFiles/linkBudgetToolSet.dir/main.c.obj.d"
   )
 
 # Targets to which this target links.

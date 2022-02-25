@@ -8,86 +8,86 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
+				<Option working_dir="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="linkBudgetToolSet">
-				<Option output="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/linkBudgetToolSet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
+				<Option output="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/linkBudgetToolSet.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkBudgetToolSet"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkBudgetToolSet"/>
+					<CompileFile command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="linkBudgetToolSet/fast">
-				<Option output="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/linkBudgetToolSet" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
+				<Option output="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/linkBudgetToolSet.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/enes/AppData/Local/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkBudgetToolSet/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 linkBudgetToolSet/fast"/>
+					<CompileFile command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/enes/AppData/Local/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.c">
+		<Unit filename="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.c">
 			<Option target="linkBudgetToolSet"/>
 		</Unit>
-		<Unit filename="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.h">
+		<Unit filename="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/linkBudget.h">
 			<Option target="linkBudgetToolSet"/>
 		</Unit>
-		<Unit filename="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/main.c">
+		<Unit filename="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/main.c">
 			<Option target="linkBudgetToolSet"/>
 		</Unit>
-		<Unit filename="/Users/enesmercan/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/CMakeLists.txt">
+		<Unit filename="C:/Users/enes/Documents/GitHub/Wireless-Comm-Tool-Set/linkBudgetToolSet/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
